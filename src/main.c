@@ -71,5 +71,8 @@ int main(void)
 	if (err) {
 		printk("Bluetooth init failed (err %d)\n", err);
 	}
+
+	while(1);
+	
 	return 0;
 }
